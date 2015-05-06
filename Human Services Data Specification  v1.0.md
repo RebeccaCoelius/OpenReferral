@@ -2,15 +2,11 @@
 
 ## Introduction
 
-The Human Services Data Specification (Open Referral) is an exchange format for publishing machine readable data about health, human, and social services, their locations, and the organizations that provide them.  For the purposes of this specification, human services are broadly defined, ranging from food assistance to job training and health care. This exchange format is meant to complement –not replace– existing storage formats currently in use.
+Government entities, community organizations, and businesses often face difficulty obtaining timely and correct data about health and human services. The Human Services Data Specification (HSDS) facilitates the open exchange and use of data among these stakeholders.  All organizations that provide services or referrals, as well as entities that consume or distribute digital human services information, are invited to publish their data in this format. 
 
-All organizations that provide services or referrals, as well as entities that consume or distribute digital human services information, are invited to publish their data in this format, whether they be governments at the local, state, or federal level; civic organizations, or companies.
+The Human Services Data Specification (HSDS) is an exchange format for publishing machine readable data about health and social services, their locations, and the organizations that provide them. For the purposes of this specification, human services are broadly defined, ranging from food assistance to job training to health care. HSDS is meant to complement –not replace– existing storage formats. 
 
-**The primary use case served by Open Referral is the provision of information about many services to a common or overlapping audience.** 
-
-Government entities, community organizations, and businesses often face difficulty obtaining timely and correct data about human services. The Human Services Data Specification facilitates the open exchange and use of data and information among these stakeholders.  To that end, the specification is designed to provide an interoperable format for web and application developers.
-
-The development of Open Referral has to date been sponsored and funded by the Knight Foundation and Code for America. Learn more about Code for America’s support of data standards [here](http://www.codeforamerica.org/cities/data-standards-faq/).
+The development of HSDS has to date taken place within Code for America through support by the Knight Foundation and Google.org. Learn more about Code for America’s work on  data standards [here](http://www.codeforamerica.org/cities/data-standards-faq/).
 
 ***
 
@@ -167,18 +163,9 @@ The standard must include information about the provenance of the data as well a
 
 The data must be a machine readable and writable format that can be created, updated and deleted with a basic text editor.
 
+***
 
-<a name="roadmap">
-## Human Services Data Specification Roadmap
-
-Open Referral does not yet incorporate the full range of data necessary to meet domain specific use cases. Specifically, the working group intends to address the following topics. 
-
-* Acceptance of initial specification with regards to content, data type, and format 
-* Process for receiving, validating, and incorporating user input
-* Develop a long term roadmap leading to the 1.0 release
-* Develop process for creating domain specific profiles and incorporating taxonomy
-* Develop process for creating wire formats 
-
+<a name="A Common Vocabulary">
 ### A Common Vocabulary
 
 The Human Services Data Specification seeks to establish a common vocabulary among information and referral (I&R) practitioners. The vocabulary reflects the simple model of four required entities: Organizations, Locations, Services, and Metadata. An optional entity is Programs, which is available for organizations that use Programs for grouping Services.  Entities have attendant properties and some properties are complex and have multiple attributes. For example addresses are comprised of several pieces of information.. 
@@ -203,7 +190,7 @@ To promote participation and accessibility, this Google Document serves as the w
 
 #### Versions
 
-Subsequent to publishing version 1.0, the specification will not change for a given period of time, to be determined by the Working Group. This will allow data producers and consumers to reliably build upon the specification. 
+Version 1.0 has been published. The workgroup is considering when it is appropriate to improve upon the specification while allowing appropriate time for data producers and consumers to reliably build upon the specification. 
 
 This working document--and the [complementary Google Group](https://groups.google.com/forum/#!forum/plats-discussion)-- will continue to serve as a forum for discussion and feedback. These conversations will inform the future evolution of the specification.
 
@@ -263,7 +250,7 @@ Source data may or may not map directly to the HSDS. Guidelines are listed below
 <a name="version">
 ### Version
 
-This is version 0.9 of the specification.  
+This is version 1.0 of the specification.  
 
 <a name="copyright">
 ### Copyright
